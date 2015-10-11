@@ -1,0 +1,69 @@
+/* style sheet */
+.tar{
+  text-align:right;
+}
+.tac{
+  text-align:center;
+}
+
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+*{
+  padding:0px;
+  margin:0px;
+}
+
+html{
+  -ms-touch-action: none;
+  -ms-content-zooming: none;
+  user-select:none;
+  -ms-user-select: none; /* IE */
+}
+
+body{
+  background-color:#ddd;
+}
+
+h1{
+  font-size:1em;
+}
+
+#container{
+  position:relative;
+  background-color:white;
+}
+#canv-back{
+  position:absolute;
+}
+#canv{
+  position:absolute;
+  z-index:5000;
+}
+#dialog{
+  position:absolute;
+  background-color:white;
+  padding:2em;
+  z-index:9000;
+}
+#dialog p{
+  padding:1em;
+}
+#dialog button{
+  border:solid 1px black;
+  background-color:#f90;
+  padding:2em;
+}
+

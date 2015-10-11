@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8" />
+<title>Template</title>
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style>
+  article, aside, dialog, figure, footer, header,
+  hgroup, menu, nav, section { display: block; }
+  body,html{
+    padding:0px;
+    margin:0px;
+  }
+</style>
+<link rel="stylesheet" type="text/css" href="css/style.css"></link>
+</head>
+<body>
+  <script src="../mh/mh.js"></script>
+  <h1><a href="">Paint</a></h1>
+  <div id="container">
+    <canvas id="canv-back"></canvas>
+    <canvas id="canv"></canvas>
+    <div id="dialog" class="tac">
+      <h1>ブラウザで筆圧を取得するテスト。</h1>
+      <p>最新のInternetExplorler, Edgeで動作確認しています。 （珍しくChromeでは筆圧が取得できず変な動きになります）</p>
+      <p>推奨端末 AsusVivoTabNote, SurfaceのようなペンのついたWindows端末</p>
+      <p>いまのところ筆圧を反映した線をひく機能のみ実装しています</p>
+      <button id="start">はじめる</button>
+    </div>
+  </div>
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>
