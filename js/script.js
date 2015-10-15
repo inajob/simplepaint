@@ -107,6 +107,7 @@
       }
     });
   }else{
+    // 一応フォールバック
     canv.addEventListener('mousedown', function(e){eventDown(e)});
     canv.addEventListener('mouseup', function(e){eventUp(e)});
     canv.addEventListener('mousemove', function(e){eventMove(e)});
