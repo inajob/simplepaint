@@ -31,6 +31,7 @@ html{
   -ms-content-zooming: none;
   user-select:none;
   -ms-user-select: none; /* IE */
+  touch-action:none;
 }
 
 body{
